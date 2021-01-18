@@ -1,0 +1,24 @@
+[RESOURCES]
+Resource 4
+Resource 3
+Resource 2
+Resource 1
+[VARIABLES]
+k1.VATime
+k1.NumberIn
+k3.NumberIn
+k2.NumberIn
+k4.NumberIn
+k4.VATime
+k1.NumberOut
+k3.NumberOut
+k2.NumberOut
+k4.NumberOut
+Nadhodzhenya.NumberOut
+Dispose 5.NumberOut
+k3.VATime
+k4.WaitTime
+k3.WaitTime
+k2.WaitTime
+k1.WaitTime
+k2.VATime

@@ -1,0 +1,26 @@
+[RESOURCES]
+Resource 4
+Resource 5
+Resource 3
+Resource 2
+Resource 1
+[VARIABLES]
+conveyor.NumberOut
+conveyor.NumberIn
+Dispose 1.NumberOut
+Income.NumberOut
+Machine5.WIP
+Machine4.WIP
+Machine3.WIP
+Machine2.WIP
+Machine1.WIP
+Machine1.NumberOut
+Machine5.NumberOut
+Machine4.NumberOut
+Machine3.NumberOut
+Machine2.NumberOut
+Machine1.NumberIn
+Machine5.NumberIn
+Machine4.NumberIn
+Machine3.NumberIn
+Machine2.NumberIn

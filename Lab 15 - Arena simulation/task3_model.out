@@ -1,0 +1,99 @@
+
+                                      ARENA Simulation Results
+                               nturko.03@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Task 1 Theoretical                                          Run execution date :12/29/2020
+Analyst: nturko.03@gmail.com                                         Model revision date:12/29/2020
+
+Replication ended at time      : 100000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+k4.WaitTimePerEntity                         2.2351E-5  1.6927E-5 .00000     .21065      35629    
+k3.WaitTimePerEntity                        .07498     .00711     .00000     6.0270      18016    
+k2.WaitTimePerEntity                        .01483     .00204     .00000     2.2136      15572    
+k1.WaitTimePerEntity                        1.4460     .08373     .00000     22.295     118891    
+k4.TotalTimePerEntity                       .09937     .00100      7.5969E-6 1.1329      35629    
+k3.TotalTimePerEntity                       .67563     (Corr)      3.7677E-5 7.2823      18016    
+k2.TotalTimePerEntity                       .31404     .00525      2.0442E-5 3.1402      15572    
+k1.TotalTimePerEntity                       2.0458     .08521      9.2886E-6 22.639     118891    
+k4.VATimePerEntity                          .09935     .00101      7.5969E-6 1.1329      35629    
+k3.VATimePerEntity                          .60065     .00767      3.7677E-5 6.3401      18016    
+k2.VATimePerEntity                          .29920     .00449      2.0442E-5 3.1402      15572    
+k1.VATimePerEntity                          .59976     .00347      9.2886E-6 9.1220     118891    
+Entity 1.VATime                             1.8183     (Corr)      6.9675E-5 19.414      49674    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000      49674    
+Entity 1.WaitTime                           3.4929     .26690     .00000     118.37      49674    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000      49674    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000      49674    
+Entity 1.TotalTime                          5.3113     .27766      1.6799E-4 130.51      49674    
+k1.Queue.WaitingTime                        1.4460     .08373     .00000     22.295     118892    
+k3.Queue.WaitingTime                        .07498     .00711     .00000     6.0270      18016    
+k4.Queue.WaitingTime                         2.2351E-5  1.6927E-5 .00000     .21065      35629    
+k2.Queue.WaitingTime                        .01483     .00204     .00000     2.2136      15572    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.6383     .14664     .00000     31.000     1.0000    
+Resource 4.NumberBusy                       .03540      7.2193E-4 .00000     2.0000     .00000    
+Resource 4.NumberScheduled                  2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Resource 4.Utilization                      .01770      3.6096E-4 .00000     1.0000     .00000    
+Resource 3.NumberBusy                       .10821     .00224     .00000     1.0000     .00000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .10821     .00224     .00000     1.0000     .00000    
+Resource 2.NumberBusy                       .04659     .00123     .00000     1.0000     .00000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .04659     .00123     .00000     1.0000     .00000    
+Resource 1.NumberBusy                       .71307     .00869     .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .71307     .00869     .00000     1.0000     1.0000    
+k1.Queue.NumberInQueue                      1.7192     .13759     .00000     30.000     .00000    
+k3.Queue.NumberInQueue                      .01351     .00138     .00000     4.0000     .00000    
+k4.Queue.NumberInQueue                       7.9635E-6 (Insuf)    .00000     1.0000     .00000    
+k2.Queue.NumberInQueue                      .00231      3.0171E-4 .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+k1 Accum VA Time                            71305.    
+k4 Number In                                35629.    
+k3 Number In                                18016.    
+k2 Number In                                15572.    
+k1 Number In                                 1.1889E+5
+k4 Accum VA Time                            3539.6    
+k4 Number Out                               35629.    
+k3 Number Out                               18016.    
+k2 Number Out                               15572.    
+k1 Number Out                                1.1889E+5
+k3 Accum VA Time                            10821.    
+k4 Accum Wait Time                          .79635    
+k3 Accum Wait Time                          1350.8    
+k2 Accum Wait Time                          230.93    
+k1 Accum Wait Time                           1.7193E+5
+k2 Accum VA Time                            4659.2    
+Entity 1.NumberIn                           49675.    
+Entity 1.NumberOut                          49674.    
+Resource 4.NumberSeized                     35629.    
+Resource 4.ScheduledUtilization             .01770    
+Resource 3.NumberSeized                     18016.    
+Resource 3.ScheduledUtilization             .10821    
+Resource 2.NumberSeized                     15572.    
+Resource 2.ScheduledUtilization             .04659    
+Resource 1.NumberSeized                      1.1889E+5
+Resource 1.ScheduledUtilization             .71307    
+System.NumberOut                            49674.    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
